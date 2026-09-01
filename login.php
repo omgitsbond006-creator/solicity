@@ -37,15 +37,15 @@ $flash = flash_take();
         <input type="hidden" name="redirect" value="login.php">
         <div class="field">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" required value="ada@demo.test">
+          <input type="email" id="email" name="email" required value="Input Email">
         </div>
         <div class="field">
           <label for="password">Password</label>
-          <input type="password" id="password" name="password" required value="demo123">
+          <input type="password" id="password" name="password" required value="Password">
         </div>
         <button class="btn block" type="submit">Sign in &rarr;</button>
       </form>
-      <p class="auth-hint">Demo: <strong>ada@demo.test</strong> / <strong>demo123</strong> (or <strong>marcus@demo.test</strong> / <strong>demo123</strong>)</p>
+      
       <p class="auth-switch">New to Solicity? <a href="<?= e(url('register.php')) ?>">Open an account</a></p>
       <p class="auth-switch">Staff? <a href="<?= e(url('admin/index.php')) ?>">Admin sign in</a></p>
     </div>
