@@ -46,7 +46,6 @@ if (!$admin):
             </div>
             <button class="btn block" type="submit">Sign in</button>
           </form>
-          <p class="auth-hint">Demo admin: <strong>admin</strong> / <strong>admin123</strong></p>
           <p class="auth-switch">Customer? <a href="<?= e(url('login.php')) ?>">Sign in here</a></p>
         </div>
       </div>
