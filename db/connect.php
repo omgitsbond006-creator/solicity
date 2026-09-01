@@ -4,19 +4,16 @@
  * Guarded like the rest of /db and /lib — see router.php and lib/config.php.
  *
  * ---------------------------------------------------------------------
- *  Local dev (XAMPP/MAMP/WAMP/plain mysql): the defaults below already
- *  match the standard setup, no editing needed.
- *
- *  Hosted (Railway, Render, etc.): set DB_HOST / DB_PORT / DB_NAME /
- *  DB_USER / DB_PASS as environment variables on the service — they
- *  override the local defaults automatically, nothing to edit here.
+ *  EDIT THESE to match your local MySQL / MariaDB setup (XAMPP, MAMP,
+ *  WAMP, or a plain mysql install all use credentials like this — the
+ *  defaults below are the standard XAMPP/phpMyAdmin ones).
  * ---------------------------------------------------------------------
  */
-define('DB_HOST', getenv('DB_HOST') ?: '127.0.0.1');
-define('DB_PORT', getenv('DB_PORT') ?: '3306');
-define('DB_NAME', getenv('DB_NAME') ?: 'solicity_bank');
-define('DB_USER', getenv('DB_USER') ?: 'root');
-define('DB_PASS', getenv('DB_PASS') ?: '');
+define('DB_HOST', '127.0.0.1');
+define('DB_PORT', '3306');
+define('DB_NAME', 'solicity_bank');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 
 defined('SOLICITY_ENTRY') or die('Direct access forbidden.');
 
