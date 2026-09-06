@@ -189,7 +189,7 @@ require __DIR__ . '/lib/partials/site-header.php';
   <div class="faq-list reveal">
     <div class="faq-item">
       <button class="faq-q">Is my money actually safe with Solicity? <span class="chev">&#9662;</span></button>
-      <div class="faq-a"><p>Solicity is a demonstration banking platform built to showcase what a modern account experience can look like — no real funds are held or moved. In a production deployment, Solicity would carry the same deposit protections and encryption standards described throughout this site.</p></div>
+      <div class="faq-a"></div>
     </div>
     <div class="faq-item">
       <button class="faq-q">How fast are transfers, really? <span class="chev">&#9662;</span></button>

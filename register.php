@@ -52,7 +52,7 @@ $flash = flash_take();
         </div>
         <button class="btn block" type="submit">Open my account &rarr;</button>
       </form>
-      <p class="field-hint mt-1">By continuing you agree this is a demo platform for illustrative purposes — no real funds are involved.</p>
+      
       <p class="auth-switch">Already have an account? <a href="<?= e(url('login.php')) ?>">Sign in</a></p>
     </div>
   </div>

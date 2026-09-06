@@ -27,8 +27,8 @@
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; <?= date('Y') ?> Solicity Bank. A demo banking platform built for illustrative purposes — no real funds are held or moved.</span>
-    <span>Member FDIC (simulated) &middot; Equal Housing Lender (simulated)</span>
+    <span>&copy; <?= date('Y') ?> Solicity Bank.</span>
+    <span>Member FDIC  &middot; Equal Housing Lender</span>
   </div>
 </footer>
 <script src="<?= e(asset('js/vendor/chart.umd.min.js')) ?>"></script>
