@@ -51,7 +51,7 @@ require __DIR__ . '/lib/partials/site-header.php';
 </div>
 
 <div class="stat-row" data-stagger>
-  <div class="stat reveal"><div class="num"><span data-count="240,000,000" data-prefix="$">0</span>+</div><div class="lbl">Managed for customers</div></div>
+  <div class="stat reveal"><div class="num"><span data-count="240M" data-prefix="$">0</span>+</div><div class="lbl">Managed for customers</div></div>
   <div class="stat reveal"><div class="num"><span data-count="18000" data-suffix="+">0</span></div><div class="lbl">Accounts opened</div></div>
   <div class="stat reveal"><div class="num"><span data-count="99.98" data-decimals="2" data-suffix="%">0</span></div><div class="lbl">Uptime, always on</div></div>
   <div class="stat reveal"><div class="num"><span data-count="4.9" data-decimals="1">0</span>/5</div><div class="lbl">Average customer rating</div></div>
