@@ -12,7 +12,7 @@ require __DIR__ . '/lib/partials/site-header.php';
   <div class="mesh"></div>
   <div class="hero-inner">
     <div class="reveal in">
-      <div class="eyebrow">Solicity Bank &middot; Member FDIC (simulated)</div>
+      <div class="eyebrow">Solicity Bank &middot; Member FDIC</div>
       <h1>Banking that feels as good as it looks.</h1>
       <p class="lede">Checking, savings, and a card that moves at the speed of your life — with real-time balances, instant transfers, and a dashboard built for people who actually look at their money.</p>
       <div class="hero-actions">

@@ -97,5 +97,4 @@ recalculate automatically whenever you do.
   `base_url()` helper keyed off `SCRIPT_NAME`, so the app works whether
   it's hosted at a web root or under a subdirectory.
 
-This is a simulation built for demonstration purposes — no real funds,
-accounts, or financial data are involved.
+
